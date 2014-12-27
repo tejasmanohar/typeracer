@@ -38,4 +38,6 @@ i have not implemented a bot for the above situation *yet*. i'll take a look at 
 
 **UPDATE:** [node-decaptcher](https://github.com/icodeforlove/node-decaptcher) seems to produce results with high enough accuracy for the [challenge captcha](http://play.typeracer.com/challenge?id=tr:...). now it's a matter of implementing decaptcha or a similar mechanism in the browser as [@jeresig](https://github.com/jeresig) describes [here](http://ejohn.org/blog/ocr-and-neural-nets-in-javascript/).
 
+![Screenshot #5](http://i.imgur.com/iz9tora.png)
+
 btw, i don't encourage cheating
