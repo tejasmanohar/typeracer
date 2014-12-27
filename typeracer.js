@@ -37,9 +37,7 @@ function trollEveryoneElse() {
   var arrLength = arrText.length;
   var timeRemaining = (((chars/5)*60)/190)*1000;
   var delay = timeRemaining/arrLength;
-  for (var i = 0; i < arrLength; i++) {
-    forEachDelay(delay, function (text) {
-      $('.txtInput').val(text).trigger({type : 'keypress', which : 32});
-    }, arrText);
-  }
+  forEachDelay(delay, function (text) {
+    $('.txtInput').val(text).trigger({type : 'keypress', which : 32});
+  }, arrText);
 }
