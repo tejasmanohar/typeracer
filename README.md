@@ -26,4 +26,12 @@ that said, be careful. do it too many times and the captcha test comes up, which
 
 ![Screenshot #2](http://i.imgur.com/RlDtSd5.png)
 
+... *snap*
+
+![Screenshot #3](http://i.imgur.com/6kdeDYM.png)
+
+5 second countdown... ohhh *snap*
+
+![Screenshot #4](http://i.imgur.com/LkhNIQu.png)
+
 btw, i don't encourage cheating
