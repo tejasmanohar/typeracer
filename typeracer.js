@@ -19,15 +19,13 @@ getScript('http://code.jquery.com/jquery-latest.min.js',function(){
 
 
 // Delayed Loop
-var forEachDelayed = function recur(array, fn, delay, ix) {
-  ix = (typeof ix === "number") ? ix : 0;
-  fn(array[ix], ix, array);
-  if (ix === array.length - 1) {
-    return;
+var forEachDelay = function(delay, f, xs) {
+  if (xs.length) {
+    setTimeout(function() {
+      f(xs[0]);
+      forEachDelay(delay, f, xs.slice(1));
+    }, delay);
   }
-  setTimeout(function() {
-    recur(array, fn, delay, ix + 1);
-  };
 }
 
 
