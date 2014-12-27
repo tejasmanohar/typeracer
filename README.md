@@ -1,7 +1,7 @@
 typeracer.js
 ============
 
-easy way to destroy everyone in typeracer
+easy way to destroy everyone else in typeracer
 
 
 ## instructions
