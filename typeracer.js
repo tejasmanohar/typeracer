@@ -20,14 +20,16 @@ getScript('http://code.jquery.com/jquery-latest.min.js',function(){
 
 // Rek Scrubz
 function win() {
-  console.log($('div.nonHideableWords').text());
+  text = $('div.nonHideableWords').text();
   chars = text.length;
   arrText = text.split(' ');
   arrLength = arrText.length;
   timeRemaining = (((chars/5)*60)/190)*1000;
   delay = timeRemaining/arrLength;
   for (var i = 0; i < arrLength; i++) {
-    sleep(delay);
+    setTimeout(function() {
+      alert("Hello");
+    }, 3000);
     $('.txtInput').val(arrText[i]).trigger({type : 'keypress', which : 32});
   } 
 }
