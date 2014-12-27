@@ -15,5 +15,8 @@ getScript('http://code.jquery.com/jquery-latest.min.js',function(){
 });
 
 function win() {
-  console.log($('div.nonHideableWords').text()); 
+  console.log($('div.nonHideableWords').text());
+  chars = text.length;
+  arrText = text.split(' ');
+  arrLength = arrText.length;
 }
