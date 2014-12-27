@@ -41,4 +41,4 @@ function trollEveryoneElse() {
       $('.txtInput').val(text).trigger({type : 'keypress', which : 32});
     }, arrText);
   }
-}q
+}
