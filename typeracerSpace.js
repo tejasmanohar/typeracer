@@ -3,9 +3,9 @@
 count = 0;
 
 function printNext() {
-    word = ansArr[count];
-    inputs[0].value = word;
-    count++;
+  word = ansArr[count];
+  inputs[0].value = word;
+  count++;
 }
 
 document.onkeypress = printNext;
@@ -16,10 +16,10 @@ document.onkeypress = printNext;
 firstWord = null;
 
 for (i=0; i<99; ++i) {
-    firstWord = document.getElementById('nhwMiddlegwt-uid-' + i);
-    if (firstWord != null) {
-        break;
-    }
+  firstWord = document.getElementById('nhwMiddlegwt-uid-' + i);
+  if (firstWord != null) {
+    break;
+  }
 }
 
 
@@ -28,10 +28,10 @@ for (i=0; i<99; ++i) {
 ans = null;
 
 for (i=0; i<99; ++i) {
-    ans = document.getElementById('nhwRightgwt-uid-' + i);
-    if (ans != null) {
-        break;
-    }
+  ans = document.getElementById('nhwRightgwt-uid-' + i);
+  if (ans != null) {
+    break;
+  }
 }
 
 
