@@ -13,7 +13,7 @@ function getScript(url,success) {
 
 
 // Load Latest, Compressed jQuery
-getScript('http://code.jquery.com/jquery-latest.min.js',function(){
+getScript('http://code.jquery.com/jquery-latest.min.js', function(){
   return trollEveryoneElse();
 });
 
