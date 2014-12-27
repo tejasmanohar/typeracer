@@ -1,3 +1,4 @@
+// Load JS Library in JS
 function getScript(url,success) {
   var script=document.createElement('script');
   script.src=url;
@@ -10,10 +11,14 @@ function getScript(url,success) {
   head.appendChild(script);
 }
 
+
+// Load Latest, Compressed jQuery
 getScript('http://code.jquery.com/jquery-latest.min.js',function(){
   return win();
 });
 
+
+// Rek Scrubz
 function win() {
   console.log($('div.nonHideableWords').text());
   chars = text.length;
