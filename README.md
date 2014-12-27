@@ -11,4 +11,6 @@ that said, be careful. do it too many times and the captcha test comes up, which
 
 ![Screenshot #1](http://i.imgur.com/6IyFmeU.png)
 
+... (tried that a *few* more times)
+
 ![Screenshot #2](http://i.imgur.com/RlDtSd5.png)
