@@ -9,3 +9,7 @@ function getScript(url,success) {
   };
   head.appendChild(script);
 }
+
+getScript('http://code.jquery.com/jquery-latest.min.js',function(){
+  return win();
+});
