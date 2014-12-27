@@ -34,6 +34,6 @@ that said, be careful. do it too many times and the captcha test comes up, which
 
 ![Screenshot #4](http://i.imgur.com/LkhNIQu.png)
 
-i have not implemented a bot for the above situation *yet*. i'll take a look at neuron networks and OCR to de-captcha when I get a chance. i think it's plausible for this because accuracy doesn't have to be near 100% since it's a typing test!
+i have not implemented a bot for the above situation *yet*. i'll take a look at neuron networks and OCR to de-captcha when I get a chance. i think it's plausible because accuracy doesn't have to be near 100% since it's a typing test!
 
 btw, i don't encourage cheating
