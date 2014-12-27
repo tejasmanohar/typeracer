@@ -1,32 +1,32 @@
-wordNumber = 0;
-function PrintNextWord() {
-    word = answerArr[wordNumber];
+count = 0;
+
+function printNext() {
+    word = ansArr[count];
     inputs[0].value = word;
-    wordNumber++;
+    count++;
 }
- 
-document.onkeypress = PrintNextWord;
- 
+
+document.onkeypress = printNext;
+
 firstWord = null;
 for (i=0; i<99; ++i) {
-    firstWord = document.getElementById("nhwMiddlegwt-uid-" + i);
+    firstWord = document.getElementById('nhwMiddlegwt-uid-' + i);
     if (firstWord != null) {
         break;
     }
 }
- 
-answer = null;
+
+ans = null;
 for (i=0; i<99; ++i) {
-    answer = document.getElementById("nhwRightgwt-uid-" + i);
-    if (answer != null) {
+    ans = document.getElementById('nhwRightgwt-uid-' + i);
+    if (ans != null) {
         break;
     }
 }
- 
-answer = firstWord.innerHTML + answer.innerHTML;
-// alert(answer);
-answerArr = answer.split(" ");
- 
-inputs = document.getElementsByTagName("input");
- 
-PrintNextWord();
+
+ans = firstWord.innerHTML + ans.innerHTML;
+ansArr = ans.split(' ');
+
+inputs = document.getElementsByTagName('input');
+
+printNext();
