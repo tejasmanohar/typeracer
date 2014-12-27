@@ -18,7 +18,7 @@ i also included `spaceTyperacer.js` which will autofill the word. if you click t
 
 ## warning
 
-that said, be careful. do it too many times and the captcha test comes up, which gets hard w/ the speed requirements! also, you may get disqualified lol (warning: gets fun quickly)
+that said, be careful. do it too many times and the captcha test comes up, which gets hard w/ the speed requirements! also, you may get disqualified lol (WARNING: gets fun quickly)
 
 ![Screenshot #1](http://i.imgur.com/6IyFmeU.png)
 
