@@ -32,8 +32,9 @@ var forEachDelay = function(delay, f, xs) {
 // Rek Scrubz
 function trollEveryoneElse() {
   var text = $('div.nonHideableWords').text();
+  var chars = text.length;
   var arrText = text.split(' ');
-  var timeRemaining = (((text.length/5)*60)/190)*1000;
+  var timeRemaining = (((chars/5)*60)/190)*1000;
   var delay = timeRemaining/arrLength;
   for (var i = 0; i < arrLength; i++) {
     forEachDelay(delay, function (text) {
