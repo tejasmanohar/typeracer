@@ -31,3 +31,7 @@ function win() {
     $('.txtInput').val(arrText[i]).trigger({type : 'keypress', which : 32});
   } 
 }
+
+function sleep(milliseconds) {
+  var start = new Date().getTime();
+}
