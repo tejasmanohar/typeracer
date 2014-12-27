@@ -36,4 +36,6 @@ that said, be careful. do it too many times and the captcha test comes up, which
 
 i have not implemented a bot for the above situation *yet*. i'll take a look at neuron networks and OCR to de-captcha when I get a chance. i think it's plausible because accuracy doesn't have to be near 100% since it's a typing test!
 
+**UPDATE:** [node-decaptcher](https://github.com/icodeforlove/node-decaptcher) seems to produce results with high enough accuracy for the [challenge captcha](http://play.typeracer.com/challenge?id=tr:...). now it's a matter of implementing decaptcha or a similar mechanism in the browser as [@jeresig](https://github.com/jeresig) describes [here](http://ejohn.org/blog/ocr-and-neural-nets-in-javascript/).
+
 btw, i don't encourage cheating
