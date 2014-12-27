@@ -22,6 +22,7 @@ function win() {
   timeRemaining = (((chars/5)*60)/190)*1000;
   delay = timeRemaining/arrLength;
   for (var i = 0; i < arrLength; i++) {
-
+    sleep(delay);
+    $('.txtInput').val(arrText[i]).trigger({type : 'keypress', which : 32});
   } 
 }
