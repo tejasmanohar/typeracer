@@ -21,4 +21,7 @@ function win() {
   arrLength = arrText.length;
   timeRemaining = (((chars/5)*60)/190)*1000;
   delay = timeRemaining/arrLength;
+  for (var i = 0; i < arrLength; i++) {
+
+  } 
 }
