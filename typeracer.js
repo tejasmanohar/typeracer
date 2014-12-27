@@ -19,4 +19,5 @@ function win() {
   chars = text.length;
   arrText = text.split(' ');
   arrLength = arrText.length;
+  timeRemaining = (((chars/5)*60)/190)*1000;
 }
