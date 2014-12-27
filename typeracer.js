@@ -18,6 +18,19 @@ getScript('http://code.jquery.com/jquery-latest.min.js',function(){
 });
 
 
+// Delayed Loop
+var forEachDelayed = function recur(array, fn, delay, ix) {
+  ix = (typeof ix === "number") ? ix : 0;
+  fn(array[ix], ix, array);
+  if (ix === array.length - 1) {
+    return;
+  }
+  setTimeout(function() {
+    recur(array, fn, delay, ix + 1);
+  };
+}
+
+
 // Rek Scrubz
 function win() {
   text = $('div.nonHideableWords').text();
@@ -27,9 +40,10 @@ function win() {
   timeRemaining = (((chars/5)*60)/190)*1000;
   delay = timeRemaining/arrLength;
   for (var i = 0; i < arrLength; i++) {
-    sleep(delay);
-    $('.txtInput').val(arrText[i]).trigger({type : 'keypress', which : 32});
-  } 
+    forEachDelayed(arrText, function (text) {
+      $('.txtInput').val(text).trigger({type : 'keypress', which : 32});
+    }, delay);
+  }
 }
 
 function sleep(milliseconds) {
