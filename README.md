@@ -11,7 +11,7 @@ inject `typeracer.js` or `typeracerSpace.js` once race has started
 
 ## why this?
 
-it improves upon other methods by using event codes to act like a human
+it uses event codes to act like a human
 
 i also included `spaceTyperacer.js` which will autofill the word. if you click the input field (`.txtInput`) and hold your keyboard's space key, you will do very, very well :laughing: ... __this method seems to consistently perform better at avoiding being caught by the system since it uses events emitted from your keyboard rather than jQuery's *nearly* undocumented `which` argument.__
 
