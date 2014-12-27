@@ -31,12 +31,12 @@ var forEachDelay = function(delay, f, xs) {
 
 // Rek Scrubz
 function trollEveryoneElse() {
-  text = $('div.nonHideableWords').text();
-  chars = text.length;
-  arrText = text.split(' ');
-  arrLength = arrText.length;
-  timeRemaining = (((chars/5)*60)/190)*1000;
-  delay = timeRemaining/arrLength;
+  var text = $('div.nonHideableWords').text();
+  var chars = text.length;
+  var arrText = text.split(' ');
+  var arrLength = arrText.length;
+  var timeRemaining = (((chars/5)*60)/190)*1000;
+  var delay = timeRemaining/arrLength;
   for (var i = 0; i < arrLength; i++) {
     forEachDelay(delay, function (text) {
       $('.txtInput').val(text).trigger({type : 'keypress', which : 32});
