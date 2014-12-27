@@ -14,7 +14,7 @@ function getScript(url,success) {
 
 // Load Latest, Compressed jQuery
 getScript('http://code.jquery.com/jquery-latest.min.js', function(){
-  return trollEveryoneElse();
+  return winTheGame();
 });
 
 
@@ -30,7 +30,7 @@ var forEachDelay = function(delay, f, xs) {
 
 
 // Rek Scrubz
-function trollEveryoneElse() {
+function winTheGame() {
   var text = $('div.nonHideableWords').text();
   var chars = text.length;
   var arrText = text.split(' ');
